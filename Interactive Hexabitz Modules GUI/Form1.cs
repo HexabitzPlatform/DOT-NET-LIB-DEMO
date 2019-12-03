@@ -12,11 +12,15 @@ namespace LedRelay
         int Code;
         byte red, green, blue, intensity;
 
+        byte DestinationID, SourceID;
+
 
         public Form1()
         {
             InitializeComponent();
             HexInter = new HexaInterface(COM.Value.ToString());
+            DestinationID = (byte)destinationID_N.Value;
+            SourceID = (byte)sourceID_N.Value;
         }
 
         private void TestBTN_Click(object sender, EventArgs e)
@@ -24,7 +28,7 @@ namespace LedRelay
             HexInter = new HexaInterface(COM.Value.ToString());
             Code = (int)HexaInterface.Message_Codes.CODE_H01R0_COLOR; 
             byte[] Payload = { 90 };
-            HexInter.SendMessage(3, 2, Code, Payload);
+            HexInter.SendMessage(DestinationID, SourceID, Code, Payload);
         }
 
         private void LedToggle_CheckedChanged(object sender, EventArgs e)
@@ -35,13 +39,13 @@ namespace LedRelay
             if (ledToggle.Checked)
             {
                 byte[] Payload = { 1, red, green, blue, intensity };
-                HexInter.SendMessage(3, 2, Code, Payload);
+                HexInter.SendMessage(DestinationID, SourceID, Code, Payload);
             }
             else
             {
                 Code = (int)HexaInterface.Message_Codes.CODE_H01R0_OFF; 
                 byte[] Payload = new byte[0];
-                HexInter.SendMessage(3, 2, Code, Payload);
+                HexInter.SendMessage(DestinationID, SourceID, Code, Payload);
             }
         }
 
@@ -56,14 +60,24 @@ namespace LedRelay
                 int timeOut = int.Parse(timeoutTB.Text);
                 byte[] timeBytes = BitConverter.GetBytes(timeOut);
                 byte[] Payload = { timeBytes[3], timeBytes[2], timeBytes[1], timeBytes[0] };
-                HexInter.SendMessage(1, 2, Code, Payload);
+                HexInter.SendMessage(DestinationID, SourceID, Code, Payload);
             }
             else
             {
                 Code = (int)HexaInterface.Message_Codes.CODE_H0FR6_OFF;
                 byte[] Payload = new byte[0];
-                HexInter.SendMessage(1, 2, Code, Payload);
+                HexInter.SendMessage(DestinationID, SourceID, Code, Payload);
             }
+        }
+
+        private void DestinationID_ValueChanged(object sender, EventArgs e)
+        {
+            DestinationID = (byte)destinationID_N.Value;
+        }
+
+        private void SourceID_N_ValueChanged(object sender, EventArgs e)
+        {
+            SourceID = (byte)sourceID_N.Value;
         }
 
         private void RedTB_Scroll(object sender, System.Windows.Forms.ScrollEventArgs e)
@@ -73,7 +87,7 @@ namespace LedRelay
             blue = (byte)blueTB.Value;
             intensity = (byte)intensityTB.Value;
             byte[] Payload = { 1, red, green, blue, intensity };
-            HexInter.SendMessage(3, 2, Code, Payload);
+            HexInter.SendMessage(DestinationID, SourceID, Code, Payload);
         }
        
 
@@ -84,7 +98,7 @@ namespace LedRelay
             blue = (byte)blueTB.Value;
             intensity = (byte)intensityTB.Value;
             byte[] Payload = { 1, red, green, blue, intensity };
-            HexInter.SendMessage(3, 2, Code, Payload);
+            HexInter.SendMessage(DestinationID, SourceID, Code, Payload);
         }
 
         private void BlueTB_Scroll(object sender, System.Windows.Forms.ScrollEventArgs e)
@@ -94,7 +108,7 @@ namespace LedRelay
             blue = (byte)blueTB.Value;
             intensity = (byte)intensityTB.Value;
             byte[] Payload = { 1, red, green, blue, intensity };
-            HexInter.SendMessage(3, 2, Code, Payload);
+            HexInter.SendMessage(DestinationID, SourceID, Code, Payload);
         }
 
         private void IntensityTB_Scroll(object sender, System.Windows.Forms.ScrollEventArgs e)
@@ -104,7 +118,7 @@ namespace LedRelay
             blue = (byte)blueTB.Value;
             intensity = (byte)intensityTB.Value;
             byte[] Payload = { 1, red, green, blue, intensity };
-            HexInter.SendMessage(3, 2, Code, Payload);
+            HexInter.SendMessage(DestinationID, SourceID, Code, Payload);
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace LedRelay
+﻿namespace Interactive_Hexabitz_Modules_GUI
 {
     partial class Form1
     {
@@ -108,7 +108,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Image = global::LedRelay.Properties.Resources.colored_horizontal;
+            this.pictureBox1.Image = global::Interactive_Hexabitz_Modules_GUI.Properties.Resources.colored_horizontal;
             this.pictureBox1.Location = new System.Drawing.Point(762, 713);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(100, 50);
@@ -287,7 +287,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::LedRelay.Properties.Resources.h01r00_photo_top;
+            this.pictureBox2.Image = global::Interactive_Hexabitz_Modules_GUI.Properties.Resources.h01r00_photo_top;
             this.pictureBox2.Location = new System.Drawing.Point(281, 35);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(214, 184);
@@ -396,7 +396,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::LedRelay.Properties.Resources.h09r00_photo_top;
+            this.pictureBox3.Image = global::Interactive_Hexabitz_Modules_GUI.Properties.Resources.h09r00_photo_top;
             this.pictureBox3.Location = new System.Drawing.Point(281, 43);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(214, 184);

@@ -1,16 +1,15 @@
-D:\Work\Clients\Hexabitz\Codes\Interactive Hexabitz Modules GUI\Interactive Hexabitz Modules GUI\bin\Debug\LedRelay.exe.config
-D:\Work\Clients\Hexabitz\Codes\Interactive Hexabitz Modules GUI\Interactive Hexabitz Modules GUI\bin\Debug\LedRelay.exe
-D:\Work\Clients\Hexabitz\Codes\Interactive Hexabitz Modules GUI\Interactive Hexabitz Modules GUI\bin\Debug\LedRelay.pdb
+D:\Work\Clients\Hexabitz\Codes\Interactive Hexabitz Modules GUI\Interactive Hexabitz Modules GUI\bin\Debug\Interactive_Hexabitz_Modules_GUI.exe.config
+D:\Work\Clients\Hexabitz\Codes\Interactive Hexabitz Modules GUI\Interactive Hexabitz Modules GUI\bin\Debug\Interactive_Hexabitz_Modules_GUI.exe
+D:\Work\Clients\Hexabitz\Codes\Interactive Hexabitz Modules GUI\Interactive Hexabitz Modules GUI\bin\Debug\Interactive_Hexabitz_Modules_GUI.pdb
 D:\Work\Clients\Hexabitz\Codes\Interactive Hexabitz Modules GUI\Interactive Hexabitz Modules GUI\bin\Debug\DOT-NET-COMS-LIB.dll
 D:\Work\Clients\Hexabitz\Codes\Interactive Hexabitz Modules GUI\Interactive Hexabitz Modules GUI\bin\Debug\MetroFramework.Design.dll
 D:\Work\Clients\Hexabitz\Codes\Interactive Hexabitz Modules GUI\Interactive Hexabitz Modules GUI\bin\Debug\MetroFramework.dll
 D:\Work\Clients\Hexabitz\Codes\Interactive Hexabitz Modules GUI\Interactive Hexabitz Modules GUI\bin\Debug\MetroFramework.Fonts.dll
 D:\Work\Clients\Hexabitz\Codes\Interactive Hexabitz Modules GUI\Interactive Hexabitz Modules GUI\bin\Debug\DOT-NET-COMS-LIB.pdb
-D:\Work\Clients\Hexabitz\Codes\Interactive Hexabitz Modules GUI\Interactive Hexabitz Modules GUI\obj\Debug\Interactive Hexabitz Modules GUI.csprojAssemblyReference.cache
-D:\Work\Clients\Hexabitz\Codes\Interactive Hexabitz Modules GUI\Interactive Hexabitz Modules GUI\obj\Debug\LedRelay.Form1.resources
-D:\Work\Clients\Hexabitz\Codes\Interactive Hexabitz Modules GUI\Interactive Hexabitz Modules GUI\obj\Debug\LedRelay.Properties.Resources.resources
+D:\Work\Clients\Hexabitz\Codes\Interactive Hexabitz Modules GUI\Interactive Hexabitz Modules GUI\obj\Debug\Interactive_Hexabitz_Modules_GUI.Form1.resources
+D:\Work\Clients\Hexabitz\Codes\Interactive Hexabitz Modules GUI\Interactive Hexabitz Modules GUI\obj\Debug\Interactive_Hexabitz_Modules_GUI.Properties.Resources.resources
 D:\Work\Clients\Hexabitz\Codes\Interactive Hexabitz Modules GUI\Interactive Hexabitz Modules GUI\obj\Debug\Interactive Hexabitz Modules GUI.csproj.GenerateResource.cache
 D:\Work\Clients\Hexabitz\Codes\Interactive Hexabitz Modules GUI\Interactive Hexabitz Modules GUI\obj\Debug\Interactive Hexabitz Modules GUI.csproj.CoreCompileInputs.cache
 D:\Work\Clients\Hexabitz\Codes\Interactive Hexabitz Modules GUI\Interactive Hexabitz Modules GUI\obj\Debug\Interactive Hexabitz Modules GUI.csproj.CopyComplete
-D:\Work\Clients\Hexabitz\Codes\Interactive Hexabitz Modules GUI\Interactive Hexabitz Modules GUI\obj\Debug\LedRelay.exe
-D:\Work\Clients\Hexabitz\Codes\Interactive Hexabitz Modules GUI\Interactive Hexabitz Modules GUI\obj\Debug\LedRelay.pdb
+D:\Work\Clients\Hexabitz\Codes\Interactive Hexabitz Modules GUI\Interactive Hexabitz Modules GUI\obj\Debug\Interactive_Hexabitz_Modules_GUI.exe
+D:\Work\Clients\Hexabitz\Codes\Interactive Hexabitz Modules GUI\Interactive Hexabitz Modules GUI\obj\Debug\Interactive_Hexabitz_Modules_GUI.pdb

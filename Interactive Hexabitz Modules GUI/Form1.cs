@@ -3,7 +3,7 @@ using System.IO.Ports;
 using DOT_NET_COMS_LIB;
 using MetroFramework.Forms;
 
-namespace LedRelay
+namespace Interactive_Hexabitz_Modules_GUI
 {
     public partial class Form1 : MetroForm
     {

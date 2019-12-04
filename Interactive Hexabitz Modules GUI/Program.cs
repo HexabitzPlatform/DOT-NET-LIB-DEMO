@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LedRelay
+namespace Interactive_Hexabitz_Modules_GUI
 {
     static class Program
     {

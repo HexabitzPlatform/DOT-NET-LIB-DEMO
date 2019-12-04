@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{CF7EBE3B-A62A-463B-AD74-2BC5E03CB890}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>LedRelay</RootNamespace>
-    <AssemblyName>LedRelay</AssemblyName>
+    <RootNamespace>Interactive_Hexabitz_Modules_GUI</RootNamespace>
+    <AssemblyName>Interactive_Hexabitz_Modules_GUI</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

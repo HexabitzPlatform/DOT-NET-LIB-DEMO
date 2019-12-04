@@ -53,7 +53,7 @@ namespace LedRelay
         private void RelayToggle_CheckedChanged(object sender, EventArgs e)
         {
             HexInter = new HexaInterface(COM.Value.ToString(), int.Parse(baudRateCB.SelectedItem.ToString()));
-            Code = (int)HexaInterface.Message_Codes.CODE_H0FR6_ON; // Led with colors code
+            Code = (int)HexaInterface.Message_Codes.CODE_H0FR6_ON; // Relay on code
             HexInter.Opt2_16_BIT_Code = "1"; // because our code is 750 (2 byte)
 
             if (relayToggle.Checked)
@@ -65,7 +65,7 @@ namespace LedRelay
             }
             else
             {
-                Code = (int)HexaInterface.Message_Codes.CODE_H0FR6_OFF;
+                Code = (int)HexaInterface.Message_Codes.CODE_H0FR6_OFF; // Relay off code
                 byte[] Payload = new byte[0];
                 HexInter.SendMessage(DestinationID, SourceID, Code, Payload);
             }

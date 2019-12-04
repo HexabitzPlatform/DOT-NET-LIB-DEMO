@@ -59,6 +59,8 @@
             this.destinationID_N = new System.Windows.Forms.NumericUpDown();
             this.sourceID_N = new System.Windows.Forms.NumericUpDown();
             this.label10 = new System.Windows.Forms.Label();
+            this.baudRateCB = new MetroFramework.Controls.MetroComboBox();
+            this.label12 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.COM)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.metroTabControl1.SuspendLayout();
@@ -84,7 +86,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(55, 670);
+            this.label4.Location = new System.Drawing.Point(21, 692);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(69, 29);
             this.label4.TabIndex = 51;
@@ -93,7 +95,7 @@
             // COM
             // 
             this.COM.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.COM.Location = new System.Drawing.Point(130, 666);
+            this.COM.Location = new System.Drawing.Point(96, 688);
             this.COM.Name = "COM";
             this.COM.Size = new System.Drawing.Size(60, 36);
             this.COM.TabIndex = 50;
@@ -117,7 +119,7 @@
             // testBTN
             // 
             this.testBTN.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.testBTN.Location = new System.Drawing.Point(59, 708);
+            this.testBTN.Location = new System.Drawing.Point(16, 730);
             this.testBTN.Name = "testBTN";
             this.testBTN.Size = new System.Drawing.Size(140, 28);
             this.testBTN.Style = MetroFramework.MetroColorStyle.Yellow;
@@ -407,7 +409,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label9.Location = new System.Drawing.Point(276, 666);
+            this.label9.Location = new System.Drawing.Point(351, 671);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(255, 29);
             this.label9.TabIndex = 95;
@@ -416,7 +418,7 @@
             // destinationID_N
             // 
             this.destinationID_N.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.destinationID_N.Location = new System.Drawing.Point(537, 663);
+            this.destinationID_N.Location = new System.Drawing.Point(612, 668);
             this.destinationID_N.Name = "destinationID_N";
             this.destinationID_N.Size = new System.Drawing.Size(60, 36);
             this.destinationID_N.TabIndex = 96;
@@ -430,7 +432,7 @@
             // sourceID_N
             // 
             this.sourceID_N.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.sourceID_N.Location = new System.Drawing.Point(537, 711);
+            this.sourceID_N.Location = new System.Drawing.Point(612, 716);
             this.sourceID_N.Name = "sourceID_N";
             this.sourceID_N.Size = new System.Drawing.Size(60, 36);
             this.sourceID_N.TabIndex = 98;
@@ -446,17 +448,51 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label10.Location = new System.Drawing.Point(276, 714);
+            this.label10.Location = new System.Drawing.Point(351, 719);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(212, 29);
             this.label10.TabIndex = 97;
             this.label10.Text = "Source Module ID:";
+            // 
+            // baudRateCB
+            // 
+            this.baudRateCB.FormattingEnabled = true;
+            this.baudRateCB.ItemHeight = 24;
+            this.baudRateCB.Items.AddRange(new object[] {
+            "1200",
+            "2400",
+            "4800",
+            "9600",
+            "19200",
+            "38400",
+            "57600",
+            "115200",
+            "230400",
+            "460800",
+            "921600"});
+            this.baudRateCB.Location = new System.Drawing.Point(183, 726);
+            this.baudRateCB.Name = "baudRateCB";
+            this.baudRateCB.Size = new System.Drawing.Size(122, 30);
+            this.baudRateCB.TabIndex = 100;
+            this.baudRateCB.UseSelectable = true;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(178, 691);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(131, 29);
+            this.label12.TabIndex = 99;
+            this.label12.Text = "Baud Rate:";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(876, 775);
+            this.Controls.Add(this.baudRateCB);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.sourceID_N);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.destinationID_N);
@@ -521,6 +557,8 @@
         private System.Windows.Forms.NumericUpDown destinationID_N;
         private System.Windows.Forms.NumericUpDown sourceID_N;
         private System.Windows.Forms.Label label10;
+        private MetroFramework.Controls.MetroComboBox baudRateCB;
+        private System.Windows.Forms.Label label12;
     }
 }
 

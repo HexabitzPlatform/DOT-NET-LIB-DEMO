@@ -18,14 +18,15 @@ namespace LedRelay
         public Form1()
         {
             InitializeComponent();
-            HexInter = new HexaInterface(COM.Value.ToString());
+            baudRateCB.SelectedIndex = 10;
+            HexInter = new HexaInterface(COM.Value.ToString(), int.Parse(baudRateCB.SelectedItem.ToString()));
             DestinationID = (byte)destinationID_N.Value;
             SourceID = (byte)sourceID_N.Value;
         }
 
         private void TestBTN_Click(object sender, EventArgs e)
         {
-            HexInter = new HexaInterface(COM.Value.ToString());
+            HexInter = new HexaInterface(COM.Value.ToString(), int.Parse(baudRateCB.SelectedItem.ToString()));
             Code = (int)HexaInterface.Message_Codes.CODE_H01R0_COLOR; 
             byte[] Payload = { 90 };
             HexInter.SendMessage(DestinationID, SourceID, Code, Payload);
@@ -33,7 +34,7 @@ namespace LedRelay
 
         private void LedToggle_CheckedChanged(object sender, EventArgs e)
         {
-            HexInter = new HexaInterface(COM.Value.ToString());
+            HexInter = new HexaInterface(COM.Value.ToString(), int.Parse(baudRateCB.SelectedItem.ToString()));
             Code = (int)HexaInterface.Message_Codes.CODE_H01R0_COLOR; // Led with colors code
             HexInter.Opt2_16_BIT_Code = "0"; // because our code is 103 (1 byte)
             if (ledToggle.Checked)
@@ -51,9 +52,9 @@ namespace LedRelay
 
         private void RelayToggle_CheckedChanged(object sender, EventArgs e)
         {
-            HexInter = new HexaInterface(COM.Value.ToString());
+            HexInter = new HexaInterface(COM.Value.ToString(), int.Parse(baudRateCB.SelectedItem.ToString()));
             Code = (int)HexaInterface.Message_Codes.CODE_H0FR6_ON; // Led with colors code
-            HexInter.Opt2_16_BIT_Code = "0"; // because our code is 750 (2 byte)
+            HexInter.Opt2_16_BIT_Code = "1"; // because our code is 750 (2 byte)
 
             if (relayToggle.Checked)
             {

@@ -1,0 +1,16 @@
+D:\Work\Clients\Hexabitz\Codes\LedRelay\LedRelay\bin\Debug\LedRelay.exe.config
+D:\Work\Clients\Hexabitz\Codes\LedRelay\LedRelay\bin\Debug\LedRelay.exe
+D:\Work\Clients\Hexabitz\Codes\LedRelay\LedRelay\bin\Debug\LedRelay.pdb
+D:\Work\Clients\Hexabitz\Codes\LedRelay\LedRelay\bin\Debug\DOT-NET-COMS-LIB.dll
+D:\Work\Clients\Hexabitz\Codes\LedRelay\LedRelay\bin\Debug\MetroFramework.Design.dll
+D:\Work\Clients\Hexabitz\Codes\LedRelay\LedRelay\bin\Debug\MetroFramework.dll
+D:\Work\Clients\Hexabitz\Codes\LedRelay\LedRelay\bin\Debug\MetroFramework.Fonts.dll
+D:\Work\Clients\Hexabitz\Codes\LedRelay\LedRelay\bin\Debug\DOT-NET-COMS-LIB.pdb
+D:\Work\Clients\Hexabitz\Codes\LedRelay\LedRelay\obj\Debug\LedRelay.csprojAssemblyReference.cache
+D:\Work\Clients\Hexabitz\Codes\LedRelay\LedRelay\obj\Debug\LedRelay.Form1.resources
+D:\Work\Clients\Hexabitz\Codes\LedRelay\LedRelay\obj\Debug\LedRelay.Properties.Resources.resources
+D:\Work\Clients\Hexabitz\Codes\LedRelay\LedRelay\obj\Debug\LedRelay.csproj.GenerateResource.cache
+D:\Work\Clients\Hexabitz\Codes\LedRelay\LedRelay\obj\Debug\LedRelay.csproj.CoreCompileInputs.cache
+D:\Work\Clients\Hexabitz\Codes\LedRelay\LedRelay\obj\Debug\LedRelay.csproj.CopyComplete
+D:\Work\Clients\Hexabitz\Codes\LedRelay\LedRelay\obj\Debug\LedRelay.exe
+D:\Work\Clients\Hexabitz\Codes\LedRelay\LedRelay\obj\Debug\LedRelay.pdb
